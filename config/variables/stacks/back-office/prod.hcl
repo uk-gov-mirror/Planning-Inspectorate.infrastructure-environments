@@ -61,9 +61,7 @@ locals {
       enabled = true,
       targeting = {
         percentage = 100
-        users       = [
-          "BC010001"
-        ]
+        users       = []
       }
     }
   ]
