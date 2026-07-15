@@ -88,6 +88,7 @@ extends:
                     artifactName: terraform-plan-$(ENVIRONMENT)
                     environmentVariables:
                       ENV: $(ENVIRONMENT)
+                      TF_LOG: DEBUG
                       ${{ if eq(parameters.DRDeployment, 'true') }}:
                         DR_DEPLOYMENT: true
                     region: ${{ parameters.region }}
