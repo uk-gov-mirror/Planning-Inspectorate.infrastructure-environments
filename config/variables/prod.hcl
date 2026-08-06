@@ -22,3 +22,7 @@ locals {
     "application_id"   = "cfbeda8b-8a44-443f-be26-59b180dd01c1"
   }
 }
+From what I have quickly googled it seems only Premium is capable of Private endpoints so that means only our TEST & PROD can have that feature.
+
+https://learn.microsoft.com/en-us/answers/questions/1640231/issues-with-service-bus-trigger-and-vnet-integrate
+Feature request: enable use of Private Endpoints for a standard tier of Service Bus Azure/azure-service-bus#474 (comment)
